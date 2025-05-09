@@ -25,6 +25,7 @@ This will create 12 or 13 entities per device:
 * Particulate Matter 10
 * Air Quality Index (EPA)
 * Air Quality Index (LRAPA)
+* VOC IAQ
 * Humidity (Adjusted sensor: +4%)
 * Temperature (Adjusted sensor: -8F)
 * Dewpoint (Adjusted sensor: re-calculated to take temp & humidity adjustments)

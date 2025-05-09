@@ -200,6 +200,7 @@ class PurpleAirApi:
                 'current_humidity_raw': result['current_humidity'],
                 'current_dewpoint_raw': result['current_dewpoint_f'],
                 'pressure': result['pressure'],
+                'gas_680': result['gas_680'],
                 'is_dual': is_dual
             }
             nodes[pa_sensor_id].update(process_pm_readings(result, is_dual))
