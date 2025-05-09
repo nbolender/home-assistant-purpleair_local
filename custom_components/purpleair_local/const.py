@@ -25,7 +25,7 @@ SENSORS_MAP = {
     'particulate_matter_10':   {'key': 'pm10_0_atm',       'uom': Platform.AIR_QUALITY, 'icon': 'mdi:blur'},
     'air_quality_index_epa':   {'key': 'aqi_epa',          'uom': Platform.AIR_QUALITY, 'icon': 'mdi:weather-hazy'},
     'air_quality_index_lrapa': {'key': 'aqi_lrapa',        'uom': Platform.AIR_QUALITY, 'icon': 'mdi:weather-hazy'},
-    'gas_680':                 {'key': 'gas_680',          'uom': Platform.AIR_QUALITY, 'icon': 'mdi:weather-hazy'},
+    'VOC_IAQ':                 {'key': 'gas_680',          'uom': Platform.AIR_QUALITY, 'icon': 'mdi:weather-hazy'},
     'humidity':                {'key': 'current_humidity', 'uom': PERCENTAGE,       'icon': 'mdi:water-percent'},
     'temperature':             {'key': 'current_temp',     'uom': UnitOfTemperature.FAHRENHEIT,  'icon': 'mdi:thermometer'},
     'dewpoint':                {'key': 'current_dewpoint', 'uom': UnitOfTemperature.FAHRENHEIT,  'icon': 'mdi:water-outline'},
